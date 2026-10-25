@@ -1,0 +1,13 @@
+<Window x:Class="NixieClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nixie Clock"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        Width="940" Height="440">
+    <Viewbox Stretch="Uniform">
+        <Canvas x:Name="Root" Width="940" Height="440" ClipToBounds="False" />
+    </Viewbox>
+</Window>
